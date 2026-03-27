@@ -1,8 +1,13 @@
 # Comparative clustering of neuropeptide sequences across metazoans
 
 ## Background
+
 Neuropeptides are key signalling molecules in animal nervous systems. Their evolutionary origins, particularly in early-diverging lineages such as cnidarians, remain incompletely understood.
-This projec explores whether sequence similarity alone can reveal meaningful clustering patterns across neuropeptides from different animal groups.
+
+Understanding how these peptides diversify provides insight into the emergence and evolution of nervous systems across metazoans.
+
+This project explores whether sequence similarity alone can reveal meaningful clustering patterns across neuropeptides from different animal groups.
+
 ## Dataset
 - **Cnidaria**: RFamide and LWamide neuropeptides
 - **Bilateria**: Neuropeptides from Homo sapiens, Mus musculus and Drosophila melanogaster
@@ -13,6 +18,9 @@ This projec explores whether sequence similarity alone can reveal meaningful clu
 - Hierarchical clustering (average linkage)
 - Visualization using a clustered heatmap
 ## Results
+The clustered heatmap below shows similarity relationships across selected neuropeptides:
+
+![Heatmap](results/clustered_heatmap.png)
 **Key Insights**
 - **Conserved peptide families**:RFamide neuropeptides cluster strongly, indicating conserved sequence motifs within cnidarians
 - **Bilaterian grouping**: Neuroppetides from bilaterian species form distinct clusters, reflecting functional and evolutionary similarity
